@@ -22,12 +22,13 @@ body {
     padding: 12px;
     border: none;
     border-radius: 6px;
+    cursor: pointer;
 }
 
 .container {
     width: 100%;
     margin: 0 auto;
-    padding: 15px;
+    padding: 0 15px;
 }
 
 .navbar {
@@ -59,15 +60,40 @@ body {
 .hero__text {
     font-size: 30px;
     color: #1d3557;
-    margin: 0;
+    margin: 20px 0;
+}
+/*Menu Styles */
+
+.explore__menu__container {
+    margin-top: 50px;
+}
+
+.explore__menu__text {
+    font-size: 30px;
+    color: #1d3557;
+    margin: 20px 0;
+    text-align: center;
 }
 
 .food__menu__card {
     width: 100%;
+    background-color: #fff;
+    border-radius: 8px;
+    margin-bottom: 15px;
 }
 
 .food__image {
     width: 100%;
+    border-radius: 8px 8px 0 0;
+}
+
+.food__menu__card__description {
+    padding: 20px;
+}
+
+.explore__menu__view__more {
+    display: flex;
+    justify-content: center;
 }
 
 @media (min-width: 768px) {
@@ -85,7 +111,7 @@ body {
     }
 
     .button__primary {
-        padding: 20px;
+        padding: 12px 20px;
         font-size: 20px;
         cursor: pointer;
     }
@@ -103,15 +129,14 @@ body {
     .container {
         max-width: 900px;
     }
-    .hero__image__container {
-        width: 500px;
-        height: 500px;
-    }
+
     .hero__text {
         font-size: 50px;
     }
 }
 
 @media (min-width: 1400px) {
-    max-width: 1250px;
+    .container {
+        max-width: 1250px;
+    }
 }
