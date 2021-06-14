@@ -257,11 +257,19 @@ body {
     margin-bottom: 10px;
   }
 
+  #email {
+    width: 350px;
+    height: 30px;
+    font-size: 18px;
+  }
+
   .quote__container {
-    width: 50%;
-    height: 100px;
-    padding: 25px 15px;
+    width: 90%;
+    height: 100%;
+    margin: 50px;
+    padding: 25px 80px;
     font-size: 20px;
+    text-align: center;
   }
 
   .quote__container__content {
@@ -291,6 +299,27 @@ body {
     .restaurants__container{
       margin-top: 30px;
     }
+
+    #email {
+      width: 350px;
+      height: 30px;
+      font-size: 18px;
+    }
+
+    .quote__container {
+      width: 100%;
+      height: 100%;
+      font-size: 25px;
+      margin-left: 20px;
+      margin-right: 20px;
+      padding: 60px 150px;
+    }
+
+    .quote__container__content {
+      width: 60%;
+      text-align: center;
+    }
+
   }
   
   @media (min-width: 1400px) {
